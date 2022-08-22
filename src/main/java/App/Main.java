@@ -13,7 +13,7 @@ public class Main {
 
         System.out.print("Hey, type sum stuff here -->: ");
         String response = gimmeSumthin.nextLine();
-        //The StringUtils class is a Java static method that lets us manipulate strings
+        //The StringUtils class is a utility library that lets us do some cool stuff, like manipulate strings
         System.out.println(response);
         //is response a number?
         System.out.println(StringUtils.isNumeric(response));
