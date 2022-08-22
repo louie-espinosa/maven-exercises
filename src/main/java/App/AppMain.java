@@ -2,17 +2,16 @@ package App;
 
 import org.apache.commons.lang3.StringUtils;
 
-import java.util.Scanner;
+import util.Input;
 
 
-
-public class Main {
+public class AppMain {
 
     public static void main(String[] args) {
-        Scanner gimmeSumthin = new Scanner(System.in);
+        Input gimmeSumthin = new Input();
 
         System.out.print("Hey, type sum stuff here -->: ");
-        String response = gimmeSumthin.nextLine();
+        String response = gimmeSumthin.getString();
         //The StringUtils class is a utility library that lets us do some cool stuff, like manipulate strings
         System.out.println(response);
         //is response a number?
