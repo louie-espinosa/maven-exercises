@@ -17,8 +17,8 @@ public class Main {
         System.out.println(response);
         //is response a number?
         System.out.println(StringUtils.isNumeric(response));
-        //flips the case of the string
-        System.out.println(StringUtils.capitalize(response));
+        //flips the case of the first char of a string
+        System.out.println(StringUtils.swapCase(response));
         //reverses the string
         System.out.println(StringUtils.reverse(response));
 
